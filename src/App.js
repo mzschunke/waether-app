@@ -1,9 +1,14 @@
+import React from 'react';
+import Form from "./components/Form"; 
+
 function App() {
   return (
-      console.log("Hello World")
+      <Form />
   );
 }
 
 export default App;
 
+
+// handleActivity --> 
 
