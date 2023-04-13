@@ -1,4 +1,5 @@
 import "./Form.css";
+import React from "react";
 
 
 export default function Form ({onAddActivity}) {
