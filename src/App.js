@@ -2,6 +2,7 @@ import React from 'react';
 import Form from "./components/Form"; 
 import { useState } from 'react';
 import { uid } from "uid";
+import List from "./components/List";
 
 
 function App() {
@@ -11,7 +12,10 @@ function handleAddActivity(newActivity) {
 }
 console.log(activities)
 return (
+  <>
+      <List activities={activities} />
       <Form onAddActivity={handleAddActivity}/>
+      </>
   );
 
 }
